@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Poor+Story&display=swap');
+
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: rgb(37, 37, 35);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Poor Story', system-ui;
+    font-size: larger;
+    font-weight: bold;
+
+}
+
+.display{
+
+    width: 50%;
+    height: 20%;
+    
+}
+
+.question{
+
+    width: 100%;
+    height: 50%;
+    border-color: orange;
+    background-color: rgb(37, 37, 35);
+    color: white;
+    font-size: xx-large;
+    text-align: end;
+    box-sizing: border-box;
+    padding: 5px;
+
+}
+
+input[type=number]:focus {
+    outline: none;
+  }
+
+.answer{
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 50%;
+    border: 1px solid grey;
+    font-size: xx-large;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 5px;
+    color: white;
+}
+
+.buttons{
+
+    width: 30%;
+    height: 50%;
+    display: flex;
+    
+}
+
+.nums{
+
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.onOff{
+
+    width: 30%;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.switch{
+
+    width: 45%;
+    height: 100%;
+    background-color: orange;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: x-large;
+
+}
+
+.clear{
+
+    width: 45%;
+    height: 100%;
+    background-color: grey;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: x-large;
+
+}
+
+.guide{
+
+    position: absolute;
+    width: 18%;
+    height: 20%;
+    border: 3px solid grey;
+    color: white;
+    background-color: rgb(33, 56, 77);
+    left: 1150px;
+}
+.firstRow{
+
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.secondRow{
+
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.thirdRow{
+
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fourthRow{
+
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.btn{
+
+    width: 25%;
+    height: 85%;
+    background-color: aliceblue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 1px solid orange;
+
+}
+
+.fourthRow .btn{
+
+    width: 45%;
+    height: 90%;
+    border: 1px solid white;
+    background-color: rgb(33, 56, 77);
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    color: white;
+}
+
+.function{
+
+    width: 35%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row1{
+
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row2{
+
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row3{
+
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.row4{
+
+    width: 80%;
+    height: 18%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    border: 1px solid white;
+    border-radius: 10%;
+    font-size: xx-large;
+    cursor: pointer;
+    
+}
+
+.btn1{
+
+    width: 45%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(33, 56, 77);
+    border: 1px solid white;
+    border-radius: 10%;
+    color: white;
+    cursor: pointer;
+
+}
